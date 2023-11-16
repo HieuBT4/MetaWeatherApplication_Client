@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Weather API Demo</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+	<div class="container">
+		<h1>Weather API Demo</h1>
+		<form id="weatherForm">
+			<label for="cityInput">Enter City:</label>
+			<input type="text" id="cityInput" name="city" required>
+			<button type="button" onclick="getWeatherData()">Get Weather</button>
+		</form>
+
+		<div id="weatherData"></div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<script src="index.js"></script>
+</body>
+
+</html>
